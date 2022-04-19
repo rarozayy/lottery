@@ -3,8 +3,13 @@ pragma solidity ^0.8.10;
 
 contract Lottery {
 
-    address payable public owner;
+    address  public owner;
     address[] public players; 
+
+    constructor() {
+        owner = msg.sender;
+    }
+
     function participate() external payable {
         require(msg.value == 0.1 ether, "error");
         players.push(msg.sender);
@@ -22,7 +27,7 @@ contract Lottery {
         uint index = random() % players.length;
         address winner = players[index];
         payable(winner).transfer(address(this).balance);
-        address[] memory players = new address[](0);
+        players = new address[](0);
     }
 
     //function getPlayers()
