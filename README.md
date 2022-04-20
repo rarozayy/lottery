@@ -1,5 +1,7 @@
 Creation and implementation of a smart contract in solidity imitating the principle of a game of chance, here a lottery, using hardhat tasks
 
+https://rinkeby.etherscan.io/address/0x959ED94793A545fCe1CEcca8066e4918aa755B28#writeContract
+
 ### Hardhat useful commands
 
 - Compile smart contracts
