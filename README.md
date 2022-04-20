@@ -1,6 +1,5 @@
-# Basic Sample Hardhat Project
+creation and implementation of a smart contract in solidity imitating the principle of a game of chance, here a lottery, using hardhat tasks
 
-creation and implementation of a smart contract in solidity imitating the principle of a game of chance, here a lottery, using hardhat tasks.
 ### Hardhat useful commands
 
 - Compile smart contracts
